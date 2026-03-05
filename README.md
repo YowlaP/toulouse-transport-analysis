@@ -214,5 +214,5 @@ Un dashboard Power BI a été réalisé en parallèle du dashboard Streamlit, co
 ---
 
 <div align="center">
-<sub>Données sources : Open Data Toulouse Métropole — Projet réalisé dans le cadre d'une formation Data Analytics</sub>
+<sub>Données sources : Open Data Toulouse Métropole — Projet réalisé dans le cadre d'un projet Data personnel </sub>
 </div>
