@@ -58,7 +58,7 @@ Modélisation relationnelle  →  3 tables, 2 jointures
 
 > Interface Streamlit avec filtres interactifs par type de transport et par commune.
 
-![Dashboard Preview](assets/dashboard_preview.png)
+![Dashboard Preview](asset/dashboard_preview.png)
 
 ---
 
@@ -67,7 +67,7 @@ Modélisation relationnelle  →  3 tables, 2 jointures
 ```
 toulouse-transport-analysis/
 │
-├── assets/                             ← Visuels exportés (README & docs)
+├── asset/                             ← Visuels exportés (README & docs)
 │   ├── dashboard_preview.png
 │   ├── chart_types.png
 │   ├── heatmap_commune_type.png
@@ -116,7 +116,7 @@ toulouse-transport-analysis/
 
 ### Répartition par type de transport
 
-![Types de transport](assets/chart_types.png)
+![Types de transport](asset/chart_types.png)
 
 > Le **bus** domine avec 31% des arrêts, suivi des lignes affrétées (21%) et de VéloToulouse (12%).  
 > Le métro et le tramway, bien que modes structurants, représentent une part faible en nombre d'arrêts — ce qui reflète leur densité de desserte concentrée.
@@ -125,7 +125,7 @@ toulouse-transport-analysis/
 
 ### Part modale par commune
 
-![Heatmap commune × type](assets/heatmap_commune_type.png)
+![Heatmap commune × type](asset/heatmap_commune_type.png)
 
 > **Lecture :** chaque cellule indique le % des arrêts de la commune relevant d'un type donné.  
 > Toulouse concentre tous les modes lourds. Les communes périphériques dépendent quasi-exclusivement du bus et des lignes affrétées.
@@ -134,7 +134,7 @@ toulouse-transport-analysis/
 
 ### Carte géographique des arrêts
 
-![Carte géographique](assets/geo_scatter.png)
+![Carte géographique](asset/geo_scatter.png)
 
 > Les stations **VéloToulouse** (vert) forment un cluster dense dans le centre de Toulouse, tandis que les **arrêts de bus** (bleu) s'étendent en périphérie le long des axes radiaux.
 
@@ -142,7 +142,7 @@ toulouse-transport-analysis/
 
 ### Audit qualité des données
 
-![Qualité des données](assets/data_quality.png)
+![Qualité des données](asset/data_quality.png)
 
 > ⚠️ Plusieurs colonnes sont très incomplètes : `code_commune` (81% de valeurs manquantes), `en_service`, `couvert`.  
 > Ce constat est intégré dans l'analyse : toute conclusion sur ces champs est présentée avec les réserves appropriées.
