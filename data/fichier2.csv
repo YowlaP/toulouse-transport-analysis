@@ -1,0 +1,19 @@
+Code type;type
+17;Tramway
+12;Metro
+16;Train
+18;VeloToulouse
+8;Emplacement trotinettes
+1;Borne auto-partage
+14;TAD
+2;bus
+9;ligne_affrete
+6;bus scolaire
+3;bus ligne_affrete
+15;tad_affrete
+13;scolaire
+11;ligne_affrete tad_affrete
+7;bus tad_affrete
+4;bus ligne_affrete scolaire
+10;ligne_affrete scolaire
+5;bus ligne_affrete tad_affrete
